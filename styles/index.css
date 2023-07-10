@@ -115,12 +115,15 @@
     width:40%;
 }
 
-.footer{
+footer{
     height: 50vh;
+    width: 100%;
     background-color: #181818;
+    color: azure;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    color: azure;
+    /* text-align: center; */
 
 }
 .footer-title{
@@ -138,5 +141,24 @@ span{
     padding-bottom: 10px;
     line-height: 25px; 
 }
+.footer-description2{
+    color:  grey;
+    font-size: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+.links{
+    line-height: 25px;
+    color: azure;
+}
+.social-link{
+    color: azure;    
+    text-decoration: none;
+    padding-top:20px;
+}
+.social-link:hover{
+    color: #E55473;
+}
+
 
 
