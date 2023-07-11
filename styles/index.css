@@ -211,15 +211,12 @@ span{
 }
 
 .services-container{
-    /* justify-content: space-around; */
-    /* align-items  : center; */
-    /* text-align: center; */
     margin-top: 120px;
     margin-bottom: 120px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #873e4e;
-    height: 350px;
+    height: 380px;
 }
 
 .services{
@@ -231,16 +228,16 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     margin-left: 200px;
     margin-right: 200px; 
     margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
-    /* padding-top: 10px; */
+    padding: 10px;
 }
-.service-text > button{
-    /* padding-top: 20px;
-    padding-bottom: 10px; */
+.service-text p{
+    /* padding-top: 10px; */
+    line-height: 35px;
 }
 
 
